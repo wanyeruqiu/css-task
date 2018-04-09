@@ -1,0 +1,40 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>九宫格练习</title>
+	<style type="text/css">
+		html,body,ul,li{padding: 0;margin:0;}
+		.square-list{
+			position: relative;
+			width: 100%;
+		}
+		.square-list li{
+			float: left;
+			width: 31%;
+			padding-top: 31%;
+			margin: 1.75% 0 0 1.75%;
+			background: orange;
+			list-style: none;
+		}
+		.square-list:after{
+			display: block;
+			content: '';
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+<ul class="square-list">
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+</body>
+</html>
