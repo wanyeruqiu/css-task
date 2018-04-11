@@ -1,0 +1,19 @@
+body{padding: 0;margin:0;}
+.square-list{
+	position: relative;
+	width: 100%;
+}
+.square-list:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.squared{
+	float: left;
+	width: 31%;
+	padding-top: 31%;
+	margin: 1.75% 0 0 1.75%;
+	background: orange;
+	list-style: none;
+	border-radius: 10px;
+}
